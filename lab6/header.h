@@ -12,10 +12,11 @@
 
 using namespace std;
 
-void displayGame(int randNum1, int randNum2, char opperation, int score);
+void game();
+void displayGame(int randNum1, int randNum2, char opperation, int& score);
 int generateNumber();
 char generateOperation();
 int readUserInput();
-//bool validateUserAnswer(int num1, int num2, string op, int userAnswer);
+bool validateUserAnswer(int num1, int num2, char op, int userAnswer);
 
 #endif
